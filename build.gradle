@@ -359,7 +359,7 @@ project('reactor-core') {
 	  copy {
 		from('src/main/java')
 		into "$project.buildDir/docs/javadoc/"
-		include "**/doc-files/*"
+		include "**/doc-files/**/*"
 	  }
 	}
   }
